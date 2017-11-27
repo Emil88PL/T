@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <title>Portfolio Emil Kotlowski</title>
+
+  <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="stylesheet" type="text/css" href="stylesMobile.css">
+  <link rel="stylesheet" type="text/css" href="stylesThumb.css">
+  <link rel="stylesheet" type="text/css" href="stylesForm.css">
+  <link rel="stylesheet" type="text/css" href="stylesWeather.css">
+
+   
+
+
+  <link rel="icon" href=""/>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  
+  <meta name="description" content="The portfolio of Emil Kotlowski, an Web developer based in London, UK." />
+  <meta name="keywords" content="web design, websites, freelance, developer" />
+  <meta name="robots" content="index, follow" />
+
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.11/p5.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.11/addons/p5.dom.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.11/addons/p5.sound.min.js"></script>
+
+  <script src="scripts.js"></script>
+
+
+</head>
+<body>
+  <div class="wrapper">
+    <menu class="menu">
+      <p class="logo" id="top" >Emil K</p>
+      <ul class="links">
+        <li class="link1" onclick="loadAbout()"> About </li>
+        <li class="link2" onclick="loadThumb()"> Work </li>
+        <li class="link3" onclick="loadContact()"> Contact </li>
+      </ul>
+    </menu>
+    <article id="article" class="article">
+      <div id="demo">
+      <h1 >Hi there!</h1>
+        <p>I'm coding for a while now. Most of my free time I spending on learnign new things. JavaScript amaze me. I have finished a CIW courses which give me a basic understanding of HTML5, CSS3 and JavaScript. I start also learn JS libraries like jQuery and p5.js. Rest of my knolage I'm taking frome the internet schools like <a href="https://www.freecodecamp.org/emil88pl">FreeCodeCamp</a> , <a href="https://www.codeschool.com/users/Emil88">CodeShool</a> , <a href="https://www.sololearn.com/Profile/1158820#">SoloLearn</a> but also other websites like; <a href="https://www.w3schools.com">W3school</a> and if I can't find answer I use <a href="https://stackoverflow.com/users/7595353/emil-k">StackOverFlow</a> and <a href="https://www.google.co.uk">Google</a>. I use JSON for API's you can find examples on <a href="https://codepen.io/Emil88PL/">CodePen</a> and on my <a href=" https://github.com/Emil88PL">GitHub</a> where I have some C++ samples. I was also learning some of AngularJS, PHP and Wordpress. </p><br/>
+        <p>You can find some of my examples here in my <span onclick="loadThumb(); goingUP();"><b>Work</b></span></p>
+      </div>
+    </article>
+
+    <aside class="asideL" >&trade;</aside>
+    <aside class="asideR" >
+      <ul id="changeClass" class="ulAsideR  fixedElement"> 
+        <li onclick="loadAbout(); goingUP();">About</li>
+        <li onclick="loadThumb(); goingUP();">Work</li>
+        <li onclick="loadContact(); goingUP();">Contact</li><br/>
+        <li><a href="CV_Emil_Kotłowski.docx" download>Download CV</a></li>
+        
+        <h3 class="listR">Work direct:</h3> <br/>      
+        
+        <li><a href="42/wikiAPI.html">Wiki API</a></li>
+        <li><a href="weatherAPI/index.html">Weather API</a></li>
+        <li><a href="42/quoteAPI.html">Quote API</a></li>
+        <li><a href="#">JSON API</a></li>
+
+        <li><a href="42/index.html">5p.js</a></li>
+        <li><a href="https://www.freecodecamp.com/emil88pl">FreeCodeCamp</a></li>
+        <li><a href="https://www.sololearn.com/Profile/1158820#">Solo Learn</a></li>
+        <li><a href="https://codepen.io/Emil88PL/">CodePen</a></li>
+        <li><a href="https://github.com/Emil88PL">Git Hub</a></li>
+        <li><a href="https://codepen.io/Emil88PL/full/bBLVLM/">Old portfolio</a></li>
+
+
+      </ul>
+    </aside>
+
+    <footer class="footer">
+    <div class="footerL">
+    <ul class="ulFooter">
+      <li onclick="loadAbout(); goingUP();">About</li>
+      <li onclick="loadThumb(); goingUP();">Work</li>
+       
+      <li onclick="loadContact(); goingUP();" >Contact</li>
+    </ul>
+    <hr  class="hrfooter" width="1" size="80%">
+    </div>
+    <div class="footerR">
+    <p class="pfooter"> The best time to plant a tree was 20 years ago. The second best time is now. </p>
+    <a href="#top" onclick="goingUP()"><i class="fa fa-arrow-circle-o-up fa-2x top" aria-hidden="false"> </i></a>
+    </div>
+    </footer>
+    <footer class="minfooter">&copy;<em>Emil 2017</em></footer>
+  </div>
+
+  <style>
+
+  </style>
+
+</body>
+</html>

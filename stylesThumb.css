@@ -1,0 +1,33 @@
+@media only screen and (min-width : 768px) {
+  body { background: green; }
+
+#thumb {	
+  display: grid;
+  grid-template-columns:  repeat(auto-fill, minmax(400px, 1fr));
+  grid-template-rows: auto;
+  grid-gap: 2px;
+
+}
+
+.pic {
+padding: 10px;
+margin: auto;
+ 
+padding-bottom: 10px;
+ 
+}
+
+figcaption {
+	text-align: center;
+}
+
+
+img {
+  
+ 	width: auto;
+ 	max-width: 400px;
+ 	height: auto;
+ 	max-height: 400px;
+ }
+
+ }
